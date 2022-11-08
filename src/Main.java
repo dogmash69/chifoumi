@@ -56,6 +56,7 @@ public class Main {
         System.out.println("Votre choix est : " +selectionJoueur(choixJoueur)+ "le choix de l'IA est : " +selectionJoueur(choixIA));
         if (choixJoueur==1 && choixIA==3 || choixJoueur==2 && choixIA== 1 || choixJoueur== 3 && choixIA==2 ){
             System.out.println("Tu as gagné ce round !");
+            result = 1;
         } else if (choixJoueur==choixIA) {
             System.out.println("Egalité !");
             result = 0;
